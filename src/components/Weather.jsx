@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useWeather } from './redux/WeatherContext';
+import { useWeather } from '../redux/WeatherContext';
 
 const Weather = () => {
   const [city, setCity] = useState('');
@@ -36,3 +36,5 @@ const Weather = () => {
       </div>
   );
 };
+
+export default Weather

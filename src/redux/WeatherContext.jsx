@@ -4,8 +4,8 @@ import {fetchWeather} from '../services/weather';
 const WeatherContext = createContext();
 
 export const WeatherProvider = ({ children }) => {
-  const [weatherData, setWeatherData] = useState();
-  const [error, setError] = useState();
+  const [weatherData, setWeatherData] = useState(null);
+  const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
   const getWeather = async () => {
