@@ -1,8 +1,8 @@
-# React + Vite
+This project is a React application that retrieves weather data and presents it to the user using the OpenWeather API. The application was developed using React Toolkit and has a responsive design, so users can easily view weather data on all devices.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Technologies
+-React.js
+-React Redux Toolkit
+-OpenWeather API
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/user-attachments/assets/e5d46219-7ff4-4591-8429-be46155a38db)
